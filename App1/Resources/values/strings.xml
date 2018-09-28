@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">App1</string>
+    <string name="action_settings">Settings</string>
+  <string-array name="JobsType">
+    <item>
+      Sent Item
+    </item>
+    <item>
+      Pick up Item
+    </item>
+    <item>
+      Buy Item
+    </item>
+    <item>
+      Fix Item
+    </item>
+    <item>
+      Clean Item
+    </item>
+    <item>
+      Healthcare Services
+    </item>
+    <item>
+      Rental
+    </item>
+    <item>
+      Teaching Services
+    </item>
+  </string-array>
+</resources>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:minWidth="25px"
+    p1:minHeight="25px"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/tabHost1">
+    <LinearLayout
+        p1:layout_width="match_parent"
+        p1:layout_height="match_parent"
+        p1:orientation="vertical"
+        p1:id="@+id/linearLayout1">
+        <TabWidget
+            p1:id="@android:id/tabs"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content" />
+        <FrameLayout
+            p1:id="@android:id/tabcontent"
+            p1:layout_width="match_parent"
+            p1:layout_height="match_parent"
+            p1:minWidth="25px"
+            p1:minHeight="25px">
+            <ScrollView
+                p1:minWidth="25px"
+                p1:minHeight="25px"
+                p1:layout_width="match_parent"
+                p1:layout_height="match_parent"
+                p1:id="@+id/TabOne">
+                <LinearLayout
+                    p1:layout_height="match_parent"
+                    p1:layout_width="match_parent"
+                    p1:orientation="vertical">
+                    <TextView
+                        p1:text="Jobs:"
+                        p1:layout_height="wrap_content"
+                        p1:layout_width="match_parent"
+                        p1:id="@+id/JobsLabel" />
+                    <Spinner
+                        p1:id="@+id/JobPicker"
+                        p1:layout_height="wrap_content"
+                        p1:layout_width="match_parent" />
+                    <TextView
+                        p1:text="Job Description:"
+                        p1:layout_height="wrap_content"
+                        p1:layout_width="match_parent"
+                        p1:id="@+id/DescriptionLabel" />
+                    <EditText
+                        p1:id="@+id/Description"
+                        p1:layout_height="wrap_content"
+                        p1:layout_width="match_parent"
+                        p1:inputType="textMultiLine"
+                        p1:minLines="1"
+                        p1:lines="8"
+                        p1:maxLines="10" />
+                    <TextView
+                        p1:id="@+id/FromLabel"
+                        p1:text="From:"
+                        p1:layout_height="wrap_content"
+                        p1:layout_width="match_parent" />
+                    <AutoCompleteTextView
+                        p1:id="@+id/From"
+                        p1:layout_height="wrap_content"
+                        p1:layout_width="match_parent" />
+                    <TextView
+                        p1:id="@+id/ToLabel"
+                        p1:text="To:"
+                        p1:layout_height="wrap_content"
+                        p1:layout_width="match_parent" />
+                    <AutoCompleteTextView
+                        p1:id="@+id/To"
+                        p1:layout_height="wrap_content"
+                        p1:layout_width="match_parent" />
+                    <TextView
+                        p1:id="@+id/LocationLabel"
+                        p1:layout_height="wrap_content"
+                        p1:layout_width="match_parent"
+                        p1:text="Location:" />
+                    <AutoCompleteTextView
+                        p1:id="@+id/Location"
+                        p1:layout_height="wrap_content"
+                        p1:layout_width="match_parent" />
+                    <TextView
+                        p1:id="@+id/DateFromLabel"
+                        p1:text="Date From:"
+                        p1:layout_height="wrap_content"
+                        p1:layout_width="match_parent" />
+                    <DatePicker
+                        p1:id="@+id/DateFrom"
+                        p1:datePickerMode="spinner"
+                        p1:calendarViewShown="false"
+                        p1:layout_height="wrap_content"
+                        p1:layout_width="match_parent" />
+                    <TextView
+                        p1:id="@+id/DateToLabel"
+                        p1:text="Date To:"
+                        p1:layout_height="wrap_content"
+                        p1:layout_width="match_parent" />
+                    <DatePicker
+                        p1:id="@+id/DateTo"
+                        p1:datePickerMode="spinner"
+                        p1:calendarViewShown="false"
+                        p1:layout_height="wrap_content"
+                        p1:layout_width="match_parent" />
+                    <TextView
+                        p1:id="@+id/DateLabel"
+                        p1:text="Date:"
+                        p1:layout_height="wrap_content"
+                        p1:layout_width="match_parent" />
+                    <DatePicker
+                        p1:id="@+id/Date"
+                        p1:datePickerMode="spinner"
+                        p1:layout_height="wrap_content"
+                        p1:layout_width="match_parent"
+                        p1:calendarViewShown="false" />
+                    <TextView
+                        p1:text="Price"
+                        p1:layout_height="wrap_content"
+                        p1:layout_width="match_parent"
+                        p1:id="@+id/PriceLabel" />
+                    <EditText
+                        p1:id="@+id/Price"
+                        p1:layout_height="wrap_content"
+                        p1:layout_width="match_parent" />
+                    <Button
+                        p1:id="@+id/Submit"
+                        p1:text="Submit"
+                        p1:layout_height="wrap_content"
+                        p1:layout_width="match_parent" />
+                </LinearLayout>
+            </ScrollView>
+            <LinearLayout
+                p1:id="@+id/TabTwo"
+                p1:layout_height="match_parent"
+                p1:layout_width="match_parent"
+                p1:orientation="vertical">
+                <ListView
+                    p1:id="@+id/Joblist"
+                    p1:layout_height="match_parent"
+                    p1:layout_width="match_parent" />
+            </LinearLayout>
+            <LinearLayout
+                p1:id="@+id/TabThree"
+                p1:layout_height="match_parent"
+                p1:layout_width="match_parent"
+                p1:orientation="vertical">
+                <TextView
+                    p1:text="Logout"
+                    p1:layout_height="wrap_content"
+                    p1:layout_width="match_parent"
+                    p1:textAlignment="center" />
+                <Button
+                    p1:layout_height="wrap_content"
+                    p1:layout_width="match_parent"
+                    p1:id="@+id/Logout"
+                    p1:text="Logout"
+                    p1:textAlignment="center" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</TabHost>

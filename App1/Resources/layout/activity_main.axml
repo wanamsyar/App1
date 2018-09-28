@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:orientation="vertical"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/linearLayout1">
+    <TextView
+        p1:layout_marginTop="70sp"
+        p1:text="Macai.my"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:textAlignment="center"
+        p1:id="@+id/Value"
+        p1:textSize="50sp" />
+    <EditText
+        p1:layout_marginTop="20sp"
+        p1:layout_marginHorizontal="20sp"
+        p1:inputType="textEmailAddress"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/Email"
+        p1:hint="E-Mail" />
+    <EditText
+        p1:layout_marginHorizontal="20sp"
+        p1:inputType="textPassword"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/Password"
+        p1:hint="Password" />
+    <Button
+        p1:layout_marginTop="10sp"
+        p1:layout_marginHorizontal="20sp"
+        p1:text="Login"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/Login" />
+    <Button
+        p1:layout_marginTop="10sp"
+        p1:layout_marginHorizontal="20sp"
+        p1:text="Register"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/Register" />
+</LinearLayout>

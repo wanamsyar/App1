@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "947050354240",
+    "firebase_url": "https://macaimy-386c2.firebaseio.com",
+    "project_id": "macaimy-386c2",
+    "storage_bucket": "macaimy-386c2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:947050354240:android:b742b23f08832e87",
+        "android_client_info": {
+          "package_name": "macai.my"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "947050354240-kn1h1e4hddsb1n0u46o3ida913979jr2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWjZaHwV1Q4IJYSihuX9WmlogwnT9Ftoo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

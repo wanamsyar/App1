@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Register"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ScrollView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="20sp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+                android:text="Your Name:"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+            <EditText
+                android:hint="Wan Muhammad Amsyar"
+                android:id="@+id/NameEntry"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+            <TextView
+                android:text="Password:"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+            <EditText
+                android:id="@+id/Password"
+                android:hint="123456789"
+                android:password="true"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+            <TextView
+                android:text="Confirm Password:"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+            <EditText
+                android:id="@+id/ConfirmPassword"
+                android:hint="123456789"
+                android:password="true"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+            <TextView
+                android:text="Identification Card Number"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+            <EditText
+                android:id="@+id/ICNumber"
+                android:hint="950927081234"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+            <TextView
+                android:text="Phone Number:"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+            <EditText
+                android:id="@+id/PhoneNumber"
+                android:hint="0134771234"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+            <TextView
+                android:text="Email Adress:"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+            <EditText
+                android:id="@+id/EmailAdress"
+                android:hint="macai@bossmacai.com"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+            <TextView
+                android:text="Adress 1:"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+            <EditText
+                android:id="@+id/AdressOne"
+                android:hint="No 125, LOrong Mawar 1"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+            <TextView
+                android:text="Adress 2:"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+            <EditText
+                android:id="@+id/AdressTwo"
+                android:hint="Taman Mawar Mewah"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+            <TextView
+                android:text="Adress 3:"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+            <EditText
+                android:id="@+id/AdressThree"
+                android:hint="34000 Taiping Perak"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+            <Button
+                android:text="Submit"
+                android:id="@+id/SubmitForm"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
